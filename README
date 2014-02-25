@@ -16,7 +16,7 @@ all 104 mouse TFs. The file names are
 
 where
 [TF name] = Name of TF as taken from UniPROBE.
-[threshold] = E-score used to delineate between bound and unbound sites.
+[threshold] = E-score used to delineate bound from unbound sites.
 
 The subfolder yeast_genotype_networks contains the genotype networks
 for all 89 mouse TFs. For the 43 TFs with protein binding microarray
@@ -25,6 +25,6 @@ the file names are
 
 [TF name]_combined_genotypenetwork_Emin[threshold]_Emax.500.gml
 
-For the 43 TFs with PBM data from one array, the file names are 
+For the 46 TFs with PBM data from one array, the file names are 
 
 [TF name]_11111111_genotypenetwork_Emin[threshold]_Emax.500.gml
