@@ -1,0 +1,30 @@
+This folder contains the genotype networks analyzed by Payne & Wagner
+(2014) ``The robustness and evolvability of transcription factor
+binding sites." Science, 343, pp. 875-877. 
+
+Data are stored in gml format. For each transcription factor (TF),
+there are 5 files. These pertain to the 5 thresholds used to define a
+site as bound or unbound ({0.350, 0.375, 0.400, 0.425, 0.450,
+0.475}). For all of the analyses reported in the main text, a
+threshold of 0.350 was used. Analyses using the other thresholds are
+presented in the supplementary online text.
+
+The subfolder mus_genotype_networks contains the genotype networks for
+all 104 mouse TFs. The file names are
+
+[TF name]_genotypenetwork_Emin[threshold]_Emax.500.gml
+
+where
+[TF name] = Name of TF as taken from UniPROBE.
+[threshold] = E-score used to delineate between bound and unbound sites.
+
+The subfolder yeast_genotype_networks contains the genotype networks
+for all 89 mouse TFs. For the 43 TFs with protein binding microarray
+(PBM) data from two arrays (see supplementary materials and methods),
+the file names are 
+
+[TF name]_combined_genotypenetwork_Emin[threshold]_Emax.500.gml
+
+For the 43 TFs with PBM data from one array, the file names are 
+
+[TF name]_11111111_genotypenetwork_Emin[threshold]_Emax.500.gml
